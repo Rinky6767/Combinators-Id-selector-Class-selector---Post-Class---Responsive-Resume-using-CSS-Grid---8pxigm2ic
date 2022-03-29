@@ -12,7 +12,7 @@
 
        .main-content {
             display: grid;
-            /* grid-template-columns: 300px 700px; */
+            grid-template-columns: 300px 700px; 
             min-height: 1000px;
             max-width: 1000px;
             width: 90%;
