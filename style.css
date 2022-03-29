@@ -5,158 +5,129 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-        body {
-            background-color: rgb(165, 221, 238);
-        }
-
-        .main-content {
-            display: grid;
-            grid-template-columns: 300px 700px;
-            min-height: 1000px;
-            width: 90%;
-            margin: 20px auto;
-        }
-
-        .left-section {
-            background-color: rgb(100, 161, 185);
-        }
-
-        .right-section {
-            background-color: rgb(216, 235, 243);
-        }
-
-        .left-content {
-            padding: 1rem;
-        }
-        p {
-            display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-        }
-        .picture {
-            margin-top: 50px;
-        }
-        .profile-img {
-            display: block;
-            width: 60%;
-            height: 60%;
-            margin: auto;
-            border: 5px white solid;
-            border-radius: 30%;
-        }
-
-        .profile-details {
-            color: white
-        }
-
-        .name {
-            font-size: 1.2rem;
-            font-weight: 700;
-            padding: 0.8rem;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 0.02px;
-        }
-
-        .designation {
-            font-size: 1rem;
-            text-align: center;
-            padding-bottom: 0.5em;
-             text-transform: uppercase;
-        }
-
-        .description {
-            font-size: 0.75em;
-            text-align: center;
-            padding: 1rem;
-        }
-
-        .icon {
-            padding: 5px;
-            padding-left: 50px;
-            image-resolution: 10;
-            display: inline;
-            align-items: center;
-        }
-      .fa{
-          color: rgb(147, 201, 233);
-        }
-
-        .skills {
-            font-size: 0.75rem;
-            text-align: center;
-            text-transform: uppercase;
-            padding: 1rem 0.5rem;
-            color: white;
-        }
-
-        .skill-item {
-            padding: 0.5rem;
-            color: white;
-        }
-
-
-        .social-media {
-            margin: 15px;
-            display: flex;
-        }
-
-        .fa {
-            font-size: 27px;
-            text-decoration: none;
-        }
-
-        .skills {
-            font-size: 0.75em;
-            text-align: center;
-            text-transform: uppercase;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            padding-left: 0.5em;
-            padding-right: 0.5em;
-            color: white;
-        }
-
-        .skill-name {
-            font-size: 0.65rem;
-            font-size: 0.65rem;
-            text-align: left;
-            padding-bottom: 0.5rem;
-        }
-
-        .progress-bar {
-            border: 1px solid;
-            color: white;
-            height: 4px;
-            background-color: white;
-        }
-
-        .right-main-content {
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            padding-left: 3rem;
-            padding-right: 3rem;
-        }
-
-        .right-title {
-            text-transform: uppercase;
-            font-size: 1.2rem;
-            font-weight: 700;
-            padding: 0.5rem;
-            letter-spacing: 1px;
-        }
-
-        .para {
-            padding: 0.5rem;
-            font-size: 20px;
-        }
+body{
+    margin: auto;
+    padding: 1rem;
+    background-color: rgb(165, 221, 238);
+}
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+display: none;
+}
+.disclaimer{
+  display: none;
+}
+.main-content{
+    display: grid;
+    min-height: 1000px;
+    width: 90%;
+    grid-template-columns: 300px 648px;
+}
+.left-section{
+    grid-column: span 1;
+    background-color: rgb(8, 62, 77);
+    border-radius: 1rem;
+}
+.left-content{
+    padding: 1rem;
+}
+.profile-pic{
+    margin-top: 50px;
+}
+.profile-image{
+    display: block;
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    letter-spacing: 0.02px;
+    color: white;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+hr{
+    background-color: white;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: auto;
+}
+.personal-details{
+    list-style: none;
+    font-size: 15px;
+    margin: auto;
+}
+.icon{
+    display: block;
+    margin: auto;
+    padding: 8px;
+}
+.fa{
+    color: rgb(147, 201, 233);
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    color: white;
+}
+.skill-name{
+    color: white;
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    height: 4px;
+    border: 1px solid white;
+    background-color: white;
+}
+.skill-item{
+    padding: 0.5rem;
+}
+.right-section{
+    grid-column: span 1/ span 2;
+    background-color: rgb(241, 250, 252);
+    border-radius: 1rem;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.para{
+    padding: 0.5rem;
+}
 @media screen and (min-width: 0px) and (max-width: 673px) {
     .main-content {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
         
 /* Write CSS code below */
